@@ -1,0 +1,435 @@
+/*************************
+GENERAL
+**************************/
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 1.5em;
+  color: #808080;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 5%;
+  text-align: center;
+  padding-bottom: 40px;
+  max-width: 1300px;
+}
+
+/*************************
+Heading
+**************************/
+
+header,
+footer {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.bio-pic {
+  margin: 0 auto;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.bio-pic img {
+  max-width: 255px;
+  margin: 20px 0 10px;
+}
+
+.header {
+  padding-bottom: 10px;
+}
+
+/*************************
+NAVIGATION
+**************************/
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 5%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+nav a  {
+  text-transform: uppercase;
+  display: block;
+  background-color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  padding: 15px 0;
+  margin: 6px 0;
+  transition: color .4s ease;
+  color: #4d4d4d;
+}
+
+nav a:hover {
+  color: #0066cc;
+}
+
+.footer-col3 {
+  display: none;
+}
+
+/*************************
+BODY
+**************************/
+
+h2 {
+  color: #4d4d4d;
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: 1.7em;
+}
+
+.portfolio {
+  padding: 40px 0;
+}
+
+img {
+  box-shadow: 10px 10px 5px #888;
+  border-radius: 10%;
+}
+
+.image9 {
+  display: none;
+}
+
+/*************************
+SKILLS
+**************************/
+
+.skills {
+  padding: 40px 5% 40px;
+  margin-bottom: 20px;
+}
+
+.skills-wrapper {
+  margin: 0 auto;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.skills img {
+  transform: rotate(-5deg);
+}
+
+/*************************
+FOOTER
+**************************/
+
+.line-break {
+  max-width: 90%;
+}
+
+.contact {
+  text-align: center;
+  padding: 40px 5%;
+}
+
+.contact h2 {
+  padding: 40px 5%;
+}
+
+.contact h2,
+.portfolio {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+.phone p,
+.email p {
+  display: inline-block;
+  padding-left: 15px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.phone a,
+.email a {
+  color: #808080;
+}
+
+.phone,
+.email {
+  text-align: center;
+}
+
+.phone p:last-child,
+.email p:last-child {
+  font-weight: 600;
+}
+
+.footer-col1 {
+  float: left;
+  text-align: left;
+  margin: 10px 0;
+  padding-left: 5%;
+}
+
+.footer-col2 {
+  text-transform: uppercase;
+  text-align: right;
+  float: right;
+  margin-top: 30px;
+  padding-right: 5%;
+}
+
+.footer-col2 a {
+  color: #4d4d4d;
+}
+
+/*************************
+***Media Queries***
+**************************/
+
+@media screen and (min-width: 768px) {
+
+  /*************************
+  General
+  **************************/
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+
+  /*************************
+  Header
+  **************************/
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  /*************************
+  Main Nav
+  **************************/
+
+  nav a {
+    background-color: inherit;
+    padding: 10px 15px 20px;
+    font-size: 1em;
+  }
+
+  .main-nav {
+    padding: 0;
+  }
+
+  .main-nav li {
+    display: inline-block;
+  }
+
+  /*************************
+  Profile image and paragraph
+  **************************/
+
+  .bio-pic img {
+    float: right;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    width: 25%;
+  }
+
+  .bio-pic p {
+    float: left;
+    width: 60%;
+    padding-top: 25px;
+    text-align: left;
+  }
+
+  /*************************
+  Portfolio and Wrapper
+  **************************/
+
+  .portfolio {
+    font-size: .9em;
+  }
+
+  .wrapper {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .wrapper div {
+    float: left;
+    width: 45%;
+    margin: 2.4%;
+    min-height: 450px;
+  }
+
+  /*************************
+  Skills
+  **************************/
+
+  .skills img {
+    float: left;
+    width: 45%;
+    margin-top: 20px;
+  }
+
+  .skills h2,
+  .skills p {
+    float: right;
+    width: 45%;
+  }
+
+  /*************************
+  Footer
+  **************************/
+
+  .footer {
+    padding-bottom: 50px;
+  }
+
+  .footer-col2 {
+    display: none;
+  }
+
+  .footer-col3 {
+    display: inline;
+  }
+
+  .footer-nav ul {
+    margin: 0;
+    float: right;
+  }
+
+  .footer-nav li {
+    float: left;
+  }
+
+  .footer-nav a {
+    padding-top: 0;
+  }
+
+  .footer-col1,
+  .footer-nav li,
+  .contact {
+    font-size: .9em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  /*************************
+  Header
+  **************************/
+
+  .header h1 {
+    float: left;
+    padding-left: 5%;
+    font-size: 1.1em;
+  }
+
+  .main-nav {
+    margin: 0;
+  }
+
+  .main-nav ul {
+    float: right;
+    padding-right: 5%;
+  }
+
+  nav a {
+    font-size: .8em;
+    padding-top: 25px;
+  }
+
+  /*************************
+  Wrapper
+  **************************/
+
+  .wrapper h2 {
+    font-size: 1.0em;
+  }
+
+  .wrapper p {
+    font-size: 1.2em;
+  }
+
+  .wrapper div {
+    width: 29%;
+    margin: 2%;
+  }
+
+  /*************************
+  Hidden Image
+  **************************/
+
+  .image9 {
+    display: inherit;
+  }
+
+  /*************************
+  Skills
+  **************************/
+
+  .skills h2 {
+    font-size: 1.2em;
+    padding-top: 50px;
+  }
+
+  .skills p {
+    font-size: 1em;
+  }
+
+  /*************************
+  Contact & Footer
+  **************************/
+
+  .contact {
+    padding-top: 10px;
+  }
+
+  .footer {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+
+  .wrapper div {
+    max-height: none;
+  }
+}
+/*************************
+clearfix
+**************************/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
